@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/siteName"
+        android:layout_width="258dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:text="site name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerMain"
+        android:layout_width="370dp"
+        android:layout_height="340dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/siteDetail"
+        android:layout_width="358dp"
+        android:layout_height="368dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:text="Site Detail"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+</RelativeLayout>

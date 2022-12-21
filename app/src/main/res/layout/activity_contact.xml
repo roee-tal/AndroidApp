@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="54sp"
+        android:hint="   email"
+        android:id="@+id/emailContact"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="text"/>
+</com.google.android.material.textfield.TextInputLayout>
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="..."
+      android:id="@+id/Message"
+      android:layout_marginTop="76dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="textMultiLine"
+          android:lines="10"
+          android:gravity="top"
+          android:scrollbars="vertical"
+          android:scrollbarStyle="insideInset"
+          android:scrollHorizontally="false"
+          />
+
+
+  </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="130dp"
+        android:text="send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</LinearLayout>
